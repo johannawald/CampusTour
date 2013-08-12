@@ -1,0 +1,310 @@
+﻿Build started 12.08.2013 11:20:21.
+     1>Project "C:\Users\Public\Documents\ICT207\Practice\CampusTour\houses.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(441): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(726): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(732): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(742): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(747): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(1647): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(1673): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(1690): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(1928): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2016): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2028): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2094): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2095): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2096): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2097): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2098): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2100): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2107): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2108): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2109): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2110): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2111): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2113): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2121): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2122): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2123): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2124): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2125): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2127): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2193): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2197): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2277): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2282): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2286): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2292): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2296): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2303): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2307): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2313): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2330): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2334): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2340): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2344): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2383): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2390): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2401): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2408): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2431): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2445): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2465): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2503): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2504): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2505): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2506): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2555): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2563): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2570): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2583): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2591): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2657): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2658): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2659): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2660): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2669): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2670): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2671): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2672): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(2961): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3162): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3177): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3193): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3213): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3236): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3240): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3259): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3263): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3283): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3287): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3307): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3311): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3372): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3373): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3374): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3375): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3377): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3384): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3385): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3386): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3387): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3388): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3397): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3399): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3400): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3401): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3402): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3403): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3411): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3412): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3413): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3414): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3415): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3416): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3426): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3427): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3428): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3429): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3439): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3440): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3441): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3442): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3450): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3451): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3452): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3453): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3454): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3455): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3465): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3466): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3467): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3468): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3478): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3479): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3480): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3481): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3488): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3489): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3490): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3491): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3492): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3493): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3494): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3501): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3503): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3504): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3505): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3506): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3507): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3514): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3516): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3517): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3518): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3519): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3520): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3528): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3529): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3530): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3531): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3532): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3543): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3545): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3556): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3558): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3602): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3604): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3605): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3606): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3606): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3607): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3608): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3608): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3614): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3616): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3617): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3618): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3618): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3619): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3620): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3620): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3630): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3632): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3633): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3634): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3635): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3636): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3642): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3644): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3645): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3646): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3647): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3648): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3677): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3681): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3736): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3763): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3777): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3805): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3832): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(3846): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4005): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4039): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4070): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4113): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4118): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4249): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4251): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4253): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4254): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4263): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4264): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4265): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4266): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4273): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4275): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4276): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4277): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4285): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4287): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4288): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4289): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4290): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4299): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4300): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4301): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4302): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4334): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4345): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4357): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4391): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4402): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4414): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4424): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4437): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4521): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4532): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4543): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4555): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4573): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4807): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4814): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4821): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4840): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4840): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4844): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4844): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4860): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4860): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4864): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4864): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4971): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4980): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4987): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(4994): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5000): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5001): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5002): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5013): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5020): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5027): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5033): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5034): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5035): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5047): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5048): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5050): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5051): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5053): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5054): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5056): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5057): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5059): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5060): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5065): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5070): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5075): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5081): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5083): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5084): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5085): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5086): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5087): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5088): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5089): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5090): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5091): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5092): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\public\documents\ict207\practice\campustour\main.cpp(5093): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\houses.exe" /INCREMENTAL /NOLOGO /LIBPATH:houses.sln\lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\houses.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\houses.lib" /MACHINE:X86 /SAFESEH .\Debug\AABB.obj
+         .\Debug\AABBLinkedList.obj
+         .\Debug\AABBNode.obj
+         .\Debug\camera.obj
+         .\Debug\cameraMap.obj
+         .\Debug\collision.obj
+         .\Debug\EasySound.obj
+         .\Debug\main.obj
+         .\Debug\PlainLinkedList.obj
+         .\Debug\PlainNode.obj
+         .\Debug\Sound.obj
+         .\Debug\SoundTime.obj
+         .\Debug\texturedPolygons.obj
+         lib\freeglut.lib
+         lib\SDL.lib
+         lib\SDLmain.lib
+     1>AABB.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         houses.vcxproj -> C:\Users\Public\Documents\ICT207\Practice\CampusTour\.\Debug\houses.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug\houses.bsc" .\Debug\AABB.sbr .\Debug\AABBLinkedList.sbr .\Debug\AABBNode.sbr .\Debug\camera.sbr .\Debug\cameraMap.sbr .\Debug\collision.sbr .\Debug\EasySound.sbr .\Debug\main.sbr .\Debug\PlainLinkedList.sbr .\Debug\PlainNode.sbr .\Debug\Sound.sbr .\Debug\SoundTime.sbr .\Debug\texturedPolygons.sbr
+     1>Done Building Project "C:\Users\Public\Documents\ICT207\Practice\CampusTour\houses.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.15
