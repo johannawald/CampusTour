@@ -12,7 +12,7 @@
 
 // USE THESE STTEINGS TO CHANGE SPEED (on different spec computers)
 // Set speed (steps)
-GLdouble movementSpeed = 10.0;
+GLdouble movementSpeed = 20.0;
 GLdouble rotationSpeed = 0.005;
 
 // TEXTURE IMAGE AXISES
@@ -274,8 +274,8 @@ GLdouble rotationSpeed = 0.005;
 #define WELCOME						218
 #define EXIT						219
 #define NO_EXIT						222
-
-// 223 Next
+#define BANNER						223 //*JW
+// 224 Next //*JW
 
 
 //--------------------------------------------------------------------------------------
@@ -342,6 +342,7 @@ void DisplayDoorPosts ();
 void DisplayEntranceSteps ();
 void DisplayExtras ();
 void DisplayGrass ();
+void DisplayBanner (); //*JW
 void DisplayLargerTextures ();
 void DisplayLibraryPosts ();
 void DisplayMainPosts ();
@@ -866,6 +867,9 @@ void CreatePlains()
 	// grass slope
 	cam.SetPlains (ZY_PLAIN, 4848.0 ,31568.0 ,9536.0, 10450.0 ,6200.0, 10000.0);
 
+	// banner
+	//cam.SetPlains (ZY_PLAIN, 4848.0 ,31568.0 ,9536.0, 10450.0 ,6200.0, 10000.0);
+
 	// flat land (pavement and grass)
 	cam.SetPlains (FLAT_PLAIN, 0.0, 36000.0 , 10450.0, 10450.0, 10000.0, 17000.0);
 	cam.SetPlains (FLAT_PLAIN, 0.0, 6500.0 , 10450.0, 10450.0, 17000.0, 40000.0);
@@ -932,7 +936,7 @@ void CreateTextures()
 	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 	
 	// set texture count
-	tp.SetTextureCount(250);
+	tp.SetTextureCount(251); //*JW
 
 	// load and create textures
 	image = tp.LoadTexture("data/abovechanctext.raw", 128, 1024);
@@ -1367,6 +1371,11 @@ void CreateTextures()
 	image = tp.LoadTexture("data/sweetMachine.raw", 256, 256);
 	tp.CreateTexture(SWEET_MACHINE, image, 256, 256);
 
+	//*JW
+	image = tp.LoadTexture("data/check.raw", 1280, 720);
+	tp.CreateTexture(BANNER, image, 1280, 720);
+	//e*JW
+
 	image = tp.LoadTexture("data/telephoneback.raw", 512, 512);
 	tp.CreateTexture(TELEPHONE_BACK, image, 512, 512);
 
@@ -1594,15 +1603,16 @@ void CreateTextures()
 
 	image = tp.LoadTexture("data/map.raw", 256, 256);
 	tp.CreateTexture(217, image, 256, 256);
+
 	image = tp.LoadTexture("data/welcome.raw", 512, 512);
 	tp.CreateTexture(218, image, 512, 512);
+
 	image = tp.LoadTexture("data/thanks.raw", 512, 512);
 	tp.CreateTexture(219, image, 512, 512);
 
 	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL);	
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
 
-	
 }
 
 //--------------------------------------------------------------------------------------
@@ -1620,7 +1630,7 @@ void DrawBackdrop()
 	DisplayEntranceSteps ();
 	DisplayExtras ();
 	DisplayGrass ();
-//	DisplayBanner (); //*JW
+	DisplayBanner (); //*JW
 	DisplayLargerTextures ();
 	DisplayLibraryPosts ();
 	DisplayMainPosts ();
@@ -4657,7 +4667,7 @@ void DrawLargerTextures ()
 
 	tp.CreateXtoYWindowList (370, 25016.0, 35458.0, 317.12, 10000.0, 660.0, 0.96, 1.0);		// Coke Machine
 	tp.CreateXtoYWindowList (371, 25016.0, 35163.0, 255.0, 10000.0, 586.2, 0.867, 1.0);		// Coffee Machine
-	tp.CreateXtoYWindowList (372, 25016.0, 34778.0, 350.0, 10000.0, 593.22, 0.59, 1.0);		// Sweet Machine
+	tp.CreateXtoYWindowList (372, 25016.0, 34778.0, 250.0, 10000.0, 593.22, 0.59, 1.0);		// Sweet Machine
 	// phys sci door 1
 	tp.CreateYtoZWindowList (373, 34320.0, 10000.0, 832.0, 26752.0, 552.0, 1.0, 0.66);		// 256x169.85
 	// phys sci toilets
@@ -4710,9 +4720,18 @@ void DisplayGrass ()
 // Display Banner -----------------------------------------------------------------------
 // --------------------------------------------------------------------------------------
 
-void DisplayBanner () {
-
+void DisplayBanner () { //*JW
+	glBindTexture(GL_TEXTURE_2D, tp.GetTexture(BANNER));
+	glCallList(800);
+	glBindTexture(GL_TEXTURE_2D, -1);
 }
+
+void DrawBanner () { //*JW
+	tp.CreateXtoYWindowList(800, 24516.0, 28078.0, 2050.0, 10000.0, 1293.22, 1.0, 1.0);
+}
+//25016.0 gehrichtung! 25116 ist hinter den automaten
+//34878 rechts - größer ist links
+//z ist up bei größer gehts nach oben 10000 ist erdoberfläche
 
 void DrawGrass ()
 {
@@ -5130,6 +5149,7 @@ void CreateTextureList()
 	DrawStepBricks ();			// 478-507
 	DrawCylinders ();			// 437-441
 	DrawMapExit ();				// 448-449, 454
+	DrawBanner ();		//*JW
 	// 455-459
 }
 
