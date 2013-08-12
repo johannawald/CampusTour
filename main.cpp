@@ -4723,11 +4723,24 @@ void DisplayGrass ()
 void DisplayBanner () { //*JW
 	glBindTexture(GL_TEXTURE_2D, tp.GetTexture(BANNER));
 	glCallList(800);
+	glBindTexture(GL_TEXTURE_2D, MAIN_POST);
+	glCallList(801);
+	glBindTexture(GL_TEXTURE_2D, MAIN_POST);
+	glCallList(802);
+	glBindTexture(GL_TEXTURE_2D, MAIN_POST);
+	glCallList(803);
+	glBindTexture(GL_TEXTURE_2D, MAIN_POST);
+	glCallList(804);
 	glBindTexture(GL_TEXTURE_2D, -1);
 }
 
 void DrawBanner () { //*JW
-	tp.CreateXtoYWindowList(800, 24516.0, 28078.0, 2050.0, 10000.0, 1293.22, 1.0, 1.0);
+	tp.CreateXtoYWindowList(800, 24516.0, 28078.0, 2050.0, 10700.0, 1293.22, 1.0, 1.0);
+	tp.CreateXtoYWindowList(801, 24506.0, 30078.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
+	tp.CreateXtoYWindowList(802, 24506.0, 27998.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
+
+	tp.CreateXtoYWindowList(803, 24526.0, 30078.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
+	tp.CreateXtoYWindowList(804, 24526.0, 27998.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
 }
 //25016.0 gehrichtung! 25116 ist hinter den automaten
 //34878 rechts - größer ist links
