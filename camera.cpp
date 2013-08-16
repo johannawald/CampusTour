@@ -423,10 +423,18 @@ void Camera::DisplayMap(const int & screenWidth, const int & screenHeight,
 // Display welcome or exit page
 //----------------------------------------------------------------------------------------
 
-void Camera::DisplayWelcomeScreen(const int & screenWidth, const int & screenHeight, 
+void Camera::DisplayWelcomeScreen(const int & screenWidth, const int & screenHeight,  //*JW
 		                const int & tempExit, const GLuint & tempImage)
 {
 	 m_map.DisplayWelcomeScreen(screenWidth, screenHeight, tempExit, tempImage);
+}
+
+//
+
+void Camera::DisplayGameEntryScreen(const int & screenWidth, const int & screenHeight,  //*JW
+									 const int & tempExit, const GLuint & tempImage) 
+{
+	m_map.DisplayGameEntryScreen(screenWidth, screenHeight, tempExit, tempImage);
 }
 
 //--------------------------------------------------------------------------------------

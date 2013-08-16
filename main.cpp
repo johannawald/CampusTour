@@ -1,6 +1,8 @@
 #include <math.h>
 #include <GL/glut.h>
 #include <time.h>
+#include <string> //*JW
+#include <iostream>
 
 //#include <windows.h> // only used if mouse is required (not portable)
 #include "camera.h"
@@ -275,8 +277,8 @@ GLdouble rotationSpeed = 0.005;
 #define EXIT						219
 #define NO_EXIT						222
 #define BANNER						223 //*JW
-// 224 Next //*JW
-
+#define NUMBERPAD					224 //*JW
+// 225 Next //*JW
 
 //--------------------------------------------------------------------------------------
 
@@ -294,6 +296,8 @@ int width, height;
 bool DisplayMap = false;
 // display welcome screen
 bool DisplayWelcome = true;
+// display game entry screen
+bool DisplayNumberpad = false;
 // display exit screen
 bool DisplayExit = false;
 // display light fittings
@@ -313,6 +317,9 @@ unsigned char* image = NULL;
 // objects
 Camera cam;
 TexturedPolygons tp;
+
+//number game entry:
+std::string TelefonNumber = ""; //*JW
 
 // initializes setting
 void myinit();
@@ -472,6 +479,10 @@ void myinit()
 	CreateTextures();
 }
 
+void CheckNumberpad() {
+	DisplayNumberpad = ((cam.GetFB() > 24500) && (cam.GetFB() < 25300) && (cam.GetLR() > 33759) && (cam.GetLR() < 34500));
+}
+
 //--------------------------------------------------------------------------------------
 //  Main Display Function
 //--------------------------------------------------------------------------------------
@@ -479,7 +490,7 @@ void Display()
 {
 	// check for movement
 	cam.CheckCamera();
-	
+	CheckNumberpad(); 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	// DISPLAY TEXTURES
@@ -488,6 +499,8 @@ void Display()
 	glPushMatrix();	
 		// displays the welcome screen
 		if (DisplayWelcome) cam.DisplayWelcomeScreen (width, height, 1, tp.GetTexture(WELCOME));	
+		// displays the game entry screen / numberpad
+		if (DisplayNumberpad) cam.DisplayGameEntryScreen (width, height, 1, tp.GetTexture(NUMBERPAD));
 		// displays the exit screen
 		if (DisplayExit) cam.DisplayWelcomeScreen (width, height, 0, tp.GetTexture(EXIT) );
 		// displays the map
@@ -621,7 +634,6 @@ void keys(unsigned char key, int x, int y)
 				DisplayExit = true;
 			}
 		break;
-		// display welcome page (space key)
 		case ' ':
 			{
 				if (DisplayWelcome)
@@ -665,9 +677,22 @@ void keys(unsigned char key, int x, int y)
 			{
 				displayECL = true;
 			}
+			break;
 		}
-		break;
-		
+		case 8: {
+			TelefonNumber = "";
+			break;
+		}
+		default: 
+		{
+			if (DisplayNumberpad && (key > 47) && (key < 58)) {
+				TelefonNumber += key;
+				if (TelefonNumber == "000") {
+					std:: cout << "enter game" << std::endl;
+				}
+			}
+			break;
+		}
 	}
 }
 
@@ -1609,6 +1634,11 @@ void CreateTextures()
 
 	image = tp.LoadTexture("data/thanks.raw", 512, 512);
 	tp.CreateTexture(219, image, 512, 512);
+
+	//*JW
+	image = tp.LoadTexture("data/numberpad.raw", 250, 300);
+	tp.CreateTexture(224, image, 250, 300);
+	//e*JW 
 
 	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL);	
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
@@ -4738,7 +4768,6 @@ void DrawBanner () { //*JW
 	tp.CreateXtoYWindowList(800, 24516.0, 28078.0, 2050.0, 10700.0, 1293.22, 1.0, 1.0);
 	tp.CreateXtoYWindowList(801, 24506.0, 30078.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
 	tp.CreateXtoYWindowList(802, 24506.0, 27998.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
-
 	tp.CreateXtoYWindowList(803, 24526.0, 30078.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
 	tp.CreateXtoYWindowList(804, 24526.0, 27998.0, 80.0, 10000.0, 2033.22, 0.1, 0.1);
 }

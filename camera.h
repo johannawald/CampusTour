@@ -93,6 +93,10 @@ public:
 	// display welcome screen
 	void DisplayWelcomeScreen (const int & screenWidth, const int & screenHeight,
 							   const int & tempExit, const GLuint & tempImage);
+	//*JW
+	void DisplayGameEntryScreen (const int & screenWidth, const int & screenHeight,
+							   const int & tempExit, const GLuint & tempImage);
+
 	// display no exit
 	void DisplayNoExit (const int & screenWidth, const int & screenHeight, 
 						const GLuint & tempImage);

@@ -29,6 +29,9 @@ public:
 	void DisplayWelcomeScreen (const int & screenWidth, const int & screenHeight, 
 		                       const int & tempExit, const GLuint & tempImage);
 
+	void DisplayGameEntryScreen (const int & screenWidth, const int & screenHeight, 
+		                       const int & tempExit, const GLuint & tempImage); //*JW
+
 	void DisplayNoExit (const int & screenWidth, const int & screenHeight, 
 						const GLuint & tempImage);
 
